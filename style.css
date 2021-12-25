@@ -1,0 +1,99 @@
+body{
+    background: linear-gradient(0deg,rgb(68,68,68),rgb(59, 59, 59));
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: grid;
+    grid-template-rows: 1fr minmax(100vh,auto) 1fr;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(65, 35, 0);
+}
+#page-logo{
+    font-family: 'Pushster', cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+header a{
+    color: rgb(255, 197, 5);
+    text-transform: capitalize;  
+    font-size: 20px;
+}
+
+header ul{
+    display: flex;
+}
+header li{
+    margin-left: 20px;
+}
+main{
+    padding: 20px 0;
+}
+main h2{
+    text-align: center;
+    color: rgb(255, 197, 5);
+    text-transform: capitalize;
+    text-shadow: 2px 2px 4px rgb(10, 10, 10);
+}
+main ul{
+    width: 55%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+main li{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+main img{
+    width: 100%;
+}
+.item-content{
+    padding: 10px;
+    background-color: white;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.item-content h3{
+    text-align: center;
+    margin: 0;
+    color: rgb(255, 197, 5);
+}
+.item-content p{
+   margin-top: 20px;
+}
+.cart-btn{
+    text-align: center;
+    margin-bottom: 5px;
+}
+main a{
+    background-color: rgb(255, 197, 5);
+    padding: 5px 8px;
+    border-radius: 5px;
+    color: rgb(65, 35, 0);
+}
+main a:hover{
+    background-color: rgb(248, 216, 112);;
+}
+footer{
+   
+    background-color: rgb(65, 35, 0);
+}
